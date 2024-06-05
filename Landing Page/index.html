@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Website by HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Lincoln.in</a>
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#review">Review</a>
+            <a href="#featured">Featured</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Car Dealing Experience</h1>
+            <h3>Redefined!</h3>
+            <p>  Experience the thrill of driving with our powerful engine options that deliver both efficiency and exhilaration. Whether you're cruising on the highway or navigating city streets, the Lincoln Continental Model offers a smooth, responsive ride that keeps you in command. Stay connected and entertained with our state-of-the-art infotainment system. Enjoy seamless integration with your smartphone, advanced navigation, and a premium audio experience that turns every drive into an adventure. Drive with confidence knowing that you're protected by the latest in automotive safety technology. From adaptive cruise control to lane-keeping assist and automatic emergency braking, the XYZ Model prioritizes your safety on every journey. Turn heads with the sleek, modern design of the Continental Model. Its aerodynamic lines, bold grille, and luxurious interior finishes make a statement of sophistication and style. Enjoy the perfect blend of comfort and elegance with premium materials and meticulous craftsmanship.</p>
+            <a href="#" class="btn">Explore Car</a>
+        </div>
+
+        <div class="home-img">
+            <div class="rhombus">
+                <img src="linc1.webp" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Our Journey</h3>
+                <p>Lincoln Car has been at the forefront of the automotive industry for decades, providing luxurious and innovative cars to our valued customers. Our commitment to quality and excellence is unmatched, and we continuously strive to push the boundaries of automotive design and technology. Our cars are meticulously crafted, combining cutting-edge technology with timeless elegance to offer an unparalleled driving experience.</p>
+                <h3>Our Mission</h3>
+                <p>Our mission is to deliver the best in class vehicles that embody sophistication, performance, and reliability. We believe in creating cars that not only meet but exceed the expectations of our customers. Join us on this journey as we redefine the car dealing experience.</p>
+            </div>
+            <div class="about-image">
+                <img src="linc2.jpg" alt="Lincoln Car">
+            </div>
+        </div>
+        <div class="about-features">
+            <div class="feature-box">
+                <i class='bx bxs-star'></i>
+                <h4>Quality</h4>
+                <p>Unmatched quality and craftsmanship in every vehicle we produce.</p>
+            </div>
+            <div class="feature-box">
+                <i class='bx bxs-tachometer'></i>
+                <h4>Performance</h4>
+                <p>High performance and reliability for an extraordinary driving experience.</p>
+            </div>
+            <div class="feature-box">
+                <i class='bx bxs-award'></i>
+                <h4>Innovation</h4>
+                <p>Innovative design and cutting-edge technology in all our models.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="review" class="review">
+        <h2>Customer Reviews</h2>
+        <div class="review-content">
+            <div class="review-box">
+                <div class="review-text">
+                    <p>"The best car buying experience I have ever had. The staff at Lincoln Car is top-notch and the car is simply amazing!"</p>
+                    <h4>- John Doe</h4>
+                </div>
+                <div class="review-img">
+                    <img src="john.jpg" alt="John Doe">
+                </div>
+            </div>
+            <div class="review-box">
+                <div class="review-text">
+                    <p>"Luxurious, smooth, and reliable. I couldn't ask for more from my Lincoln Car. Highly recommend!"</p>
+                    <h4>- Jane Smith</h4>
+                </div>
+                <div class="review-img">
+                    <img src="jane.jpg" alt="Jane Smith">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="featured" class="featured">
+        <h2>Featured Cars</h2>
+        <div class="featured-content">
+            <div class="featured-box">
+                <img src="linccar3.webp" alt="Model X">
+                <div class="featured-text">
+                    <h3>Nautilus</h3>
+                    <p>A perfect blend of performance and luxury. Experience the best with Model X.</p>
+                </div>
+            </div>
+            <div class="featured-box">
+                <img src="linccar4.jpg" alt="Model Y">
+                <div class="featured-text">
+                    <h3>Aviator</h3>
+                    <p>Innovative design and cutting-edge technology. Model Y sets the standard.</p>
+                </div>
+            </div>
+            <div class="featured-box">
+                <img src="linccar6.webp" alt="Model Z">
+                <div class="featured-text">
+                    <h3>Navigator</h3>
+                    <p>Exquisite craftsmanship and state-of-the-art features. Discover Model Z.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Lincoln Car. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
